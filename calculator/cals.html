@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>calculator</title>
+        <link rel="stylesheet" href="cals.css">
+    </head>
+    <body>
+        <div class="outline">
+            <div class="display">
+            <div class="output" id="old"></div>
+            <div class="output" id="num1" style="font-size: 35px;"></div>
+            </div>
+            <hr>
+            <br>
+            <div class="button">
+                <button onclick="inputs('1')">1</button>
+                <button onclick="inputs('2')">2</button>
+                <button onclick="inputs('3')">3</button>
+                <button class="arithmatic" onclick="arithmatic(1)">/</button>
+            </div>
+            <div class="button">
+                <button onclick="inputs('4')">4</button>
+                <button onclick="inputs('5')">5</button>
+                <button onclick="inputs('6')">6</button>
+                <button class="arithmatic" onclick="arithmatic(2)">*</button>
+            </div>    
+            <div class="button">
+                <button onclick="inputs('7')">7</button>
+                <button onclick="inputs('8')">8</button>
+                <button onclick="inputs('9')">9</button>
+                <button class="arithmatic" onclick="arithmatic(3)">+</button>
+            </div>      
+            <div class="button">
+                <button class="clear" onclick="cleardata()">C</button>
+                <button onclick="inputs('0')">0</button>
+                <button onclick="inputs('.')">.</button>
+                <button class="arithmatic" onclick="arithmatic(4)">-</button>
+            </div>      
+        </div>
+
+        <script src="cals.js"></script>
+    </body>
+</html>
